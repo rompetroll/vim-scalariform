@@ -11,23 +11,23 @@ basic indentation in scala files now, but that works for me
 
 - format whole file
 
-    ┌------ go to top
-    gg=G
-      └------ use formatter which is configured via "equalsprg" from where cursor is to end of file
-    
-  or
-
-    ┌------ go to top
-    ggVG=
-      | └-- format using equalsprg
-      └------ select whole file in visual-line-mode
+        ┌------ go to top
+        gg=G
+          └------ use formatter which is configured via "equalsprg" from where cursor is to end of file
 
   or
 
-    ┌------ go to top
-    ggVGgq
-      | └-- format using formatprg
-      └------ select whole file in visual-line-mode
+        ┌------ go to top
+        ggVG=
+          | └-- format using equalsprg
+          └------ select whole file in visual-line-mode
+
+  or
+
+        ┌------ go to top
+        ggVGgq
+          | └-- format using formatprg
+          └------ select whole file in visual-line-mode
 
 - format portions of a file
 
