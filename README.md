@@ -36,4 +36,5 @@ basic indentation in scala files now, but that works for me
 
 ## License
 
-do what you want with it.
+DATW (do as thou wilt).
+The bundled scalariform.jar is under MIT license https://github.com/mdr/scalariform/blob/master/LICENCE.
